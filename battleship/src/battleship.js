@@ -1,5 +1,4 @@
 class Ship {
-
     constructor(length) {
         this.length = length;
         this.hits = 0;
@@ -28,9 +27,9 @@ class Gameboard {
     }
 
     #create_board() {
-        for (let n=0;n<9;n++) {
+        for (let n=0;n<10;n++) {
             let array = [];
-            for (let n=0;n<11;n++) {
+            for (let n=0;n<10;n++) {
                 array.push(0);
             }
             this.board.push(array);
@@ -72,9 +71,9 @@ class Gameboard {
     }
 
     print_board() {
-        for (let n=0;n<9;n++) {
+        for (let n=0;n<10;n++) {
             let string = "";
-            for (let m=0;m<11;m++) {
+            for (let m=0;m<10;m++) {
                 if (this.board[n][m]) {
                     string += "1 ";
                     continue;

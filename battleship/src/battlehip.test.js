@@ -1,4 +1,4 @@
-const {Gameboard, Ship} = require("./battleship");
+const {Gameboard, Ship, Player} = require("./battleship.js");
 
 let board = new Gameboard();
 let ship = new Ship(2);

@@ -1,4 +1,8 @@
 {
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "name": "battleship",
   "version": "1.0.0",
   "description": "",
